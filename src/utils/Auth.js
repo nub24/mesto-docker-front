@@ -1,4 +1,4 @@
-export const BASE_URL = "http://94.228.123.95";
+export const BASE_URL = "http://api.mesto.lightproger.ru";
 
 const request = (url, options) => {
   const fetchAddress = `${BASE_URL}/${url}`;
